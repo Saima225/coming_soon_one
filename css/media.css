@@ -1,0 +1,23 @@
+@media (min-width: 1024px) {
+    body {
+      background-attachment: fixed;
+    }
+  }
+
+  @media (max-width: 575px) {
+    #header .countdown div {
+      width: 70px;
+      padding: 10px 0;
+      margin: 10px 8px;
+    }
+  
+    #header .countdown div h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+  
+    #header .countdown div h4 {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
